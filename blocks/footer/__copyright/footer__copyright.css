@@ -1,0 +1,18 @@
+.footer__copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width:767px) {
+    .footer__copyright{
+        position: relative;
+        padding-top: 16px;
+        padding-bottom: 24px;
+        line-height: 14px;
+    }
+}
